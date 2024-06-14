@@ -1,7 +1,5 @@
 ## Using Grad Cam
 
-
-
 参考同济子豪兄：https://www.bilibili.com/video/BV1PD4y1B77q/?spm_id_from=333.337.search-card.all.click&vd_source=16a2fa3709580d2463346223fc1f67b1
 
 ### - Cam
@@ -11,10 +9,6 @@
 **CAM利用模型的Global AvgPool层的feature map和全连接层的参数进行加权得到对应类别的热力图。**
 
 **缺点是：模型必须有Global AvgPool层，相当于限制了模型最后几层的架构。**
-
-
-
-
 
 ### - Grad Cam
 
@@ -26,17 +20,11 @@
 
 ![image-20240613170541017](tutorial.assets/image-20240613170541017.png)
 
-
-
 ### - 在Resnet上使用Cam
 
 案例代码见**example_resnet.ipynb**
 
 ![image-20240614154341577](README.assets/image-20240614154341577.png)
-
-
-
-
 
 ### -在CDNet上使用Cam
 
